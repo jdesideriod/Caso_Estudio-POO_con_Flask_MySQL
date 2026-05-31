@@ -1,0 +1,68 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Herramientas Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Build/distribucion
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Flask
+instance/
+.webassets-cache
+
+# SQLite local (si se usa para pruebas)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs y temporales
+*.log
+logs/
+tmp/
+temp/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MySQL dumps/backups locales
+*.sql.gz
+*.dump
+*.bak
+
+# Node (solo si se llega a usar frontend/herramientas)
+node_modules/
+.npm/
